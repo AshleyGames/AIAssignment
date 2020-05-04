@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 398}
   m_MaxSize: {x: 22012, y: 14048}
   vertical: 0
-  controlID: 11343
+  controlID: 308
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 398}
   m_MaxSize: {x: 18010, y: 14048}
   vertical: 1
-  controlID: 11412
+  controlID: 309
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 274}
   m_MaxSize: {x: 18010, y: 10024}
   vertical: 0
-  controlID: 11413
+  controlID: 310
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -520,20 +520,19 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Scripts/Done(Comment)/Old
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\University\2nd Year\COMP250 - AI\Escape The Darkness
+  m_LastProjectPath: E:\University\2nd Year\NewAI\AIAssignment\Escape The Darkness
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 6a300000
     m_LastClickedID: 12394
-    m_ExpandedIDs: ffffffff00000000920900009c090000480a00004a0a0000520a00001e0b00008a0b00002a2c0000
+    m_ExpandedIDs: ffffffff0000000096090000a00900004c0a00004e0a0000560a0000220b00008e0b00004e2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -561,7 +560,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000920900009c090000480a00004a0a0000520a00001e0b00008a0b00002a2c0000
+    m_ExpandedIDs: ffffffff0000000096090000a00900004c0a00004e0a0000560a0000620a0000220b00008e0b00004e2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,9 +644,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: d6fbffff0a0e0000
+      m_SelectedIDs: 340f0000
+      m_LastClickedID: 3892
+      m_ExpandedIDs: d6fbffff480e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
