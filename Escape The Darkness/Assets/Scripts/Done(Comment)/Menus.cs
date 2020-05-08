@@ -8,7 +8,7 @@ public class Menus : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("PlayerInput");
     }
 
     public void MainMenu()
@@ -24,5 +24,15 @@ public class Menus : MonoBehaviour
     public void HowToPlay()
     {
         SceneManager.LoadScene("Instructions");
+    }
+
+    public void CreditsMenu()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+    public void HighScores()
+    {
+        SceneManager.LoadScene("LeaderBoard");
     }
 }

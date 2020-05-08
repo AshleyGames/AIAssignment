@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
             rigid.velocity = new Vector3(0, 8, 0);
         }
 
+
         transform.Translate(Vector3.right * speed * Time.deltaTime);
     }
 }
