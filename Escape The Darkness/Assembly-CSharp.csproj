@@ -62,9 +62,9 @@
      <Compile Include="Assets\Scripts\Done(Comment)\Timer.cs" />
      <Compile Include="Assets\Scripts\Ground.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
-     <Compile Include="Assets\Scripts\HighScore.cs" />
      <Compile Include="Assets\Scripts\NameController.cs" />
      <Compile Include="Assets\Scripts\RandomObstacles.cs" />
+     <Compile Include="Assets\Scripts\Scoring.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/RM/Documents/AIEndlessRunner/AIAssignment/Escape The Darkness/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
