@@ -11,10 +11,15 @@ public class Scoring : MonoBehaviour
     private int maxDifficultyLevel = 10;
     private int scoreToNextLevel = 10;
 
+    private bool IsDead = false;
+
     public Text ScoreText;
    
     void Update()
     {
+        if (IsDead)
+            return;
+
         if (score >= scoreToNextLevel)
             LevelUp();
 
@@ -34,5 +39,10 @@ public class Scoring : MonoBehaviour
         GetComponent<PlayerMovement>().SetSpeed(difficultyLevel);
 
         Debug.Log (difficultyLevel);
+    }
+
+    public void OnDeath()
+    {
+        IsDead = true;
     }
 }

@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
 
     public int HealthCount = 10;
 
+    private bool IsDead = false;
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -20,7 +22,7 @@ public class Health : MonoBehaviour
 
             if (HealthCount == 0)
             {
-                SceneManager.LoadScene("Death");
+                Death();
             }
             //This is saying if the players health reaches 0 then go to the death scene
         }
@@ -28,6 +30,13 @@ public class Health : MonoBehaviour
 
 
 
+    }
+
+    private void Death()
+    {
+        IsDead = true;
+        GetComponent<Scoring>().OnDeath();
+        //SceneManager.LoadScene("Death");
     }
 
 

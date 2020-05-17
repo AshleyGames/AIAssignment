@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7473778278975073963}
   - component: {fileID: 7473778278974073963}
   - component: {fileID: 4163091162261949852}
-  - component: {fileID: 4163091162261949850}
-  - component: {fileID: 4163091162261949851}
-  - component: {fileID: 4163091162261949853}
-  - component: {fileID: 1774726886}
+  - component: {fileID: 5623697172243393667}
+  - component: {fileID: 9110494228882131045}
+  - component: {fileID: 4993433809554315785}
+  - component: {fileID: 4163091162261949854}
   m_Layer: 0
   m_Name: ashley_jayce
   m_TagString: Player
@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 7473778278976008875}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 127.02741, y: -0.16, z: 0.093233}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2.4714127, y: 2.1603851, z: 2.4714127}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,7 +98,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!136 &4163091162261949850
+--- !u!136 &5623697172243393667
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,7 +112,7 @@ CapsuleCollider:
   m_Height: 1.5024023
   m_Direction: 1
   m_Center: {x: 0, y: 0.75120115, z: 0.0063560605}
---- !u!114 &4163091162261949851
+--- !u!114 &9110494228882131045
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LivesText: {fileID: 0}
   HealthCount: 10
---- !u!114 &4163091162261949853
+--- !u!114 &4993433809554315785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 0}
---- !u!114 &1774726886
+--- !u!114 &4163091162261949854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

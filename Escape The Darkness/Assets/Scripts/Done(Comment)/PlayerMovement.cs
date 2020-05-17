@@ -18,12 +18,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown (KeyCode.A))
         {
-            rigid.velocity = new Vector3(0, 0, -8);
+            rigid.velocity = new Vector3(0, 0, -7);
         }
 
         if(Input.GetKeyDown (KeyCode.D))
         {
-            rigid.velocity = new Vector3(0, 0, 8);
+            rigid.velocity = new Vector3(0, 0, 7);
         }
 
         if (Input.GetKeyDown(KeyCode.W))
