@@ -6,16 +6,17 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
+    //
     public static bool GameIsPaused = false;
-
     public static bool GameControls = false;
 
+    //These three public gameObjects are for the different canavases that are on the game scene.
+    //They were each dragged and dropped for their specfic canvas
     public GameObject PauseMenuCanvas;
-
     public GameObject ControlsCanvas;
-
     public GameObject PlayerCanvas;
 
+    //At the start of the game only the player canvas is visablly, the other two are hidden
     void Start()
     {
         PauseMenuCanvas.SetActive(false);
@@ -24,7 +25,7 @@ public class PauseMenu : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+   //Below is saying if either key P is pressed and the game is paused 
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.P))
@@ -33,23 +34,28 @@ public class PauseMenu : MonoBehaviour
             {
                 Resume();
             }
+            //Do this
 
             else
             {
                 PauseGame();
             }
+            //if not then do this
         }
+        //Below is saying if either key C is pressed and the game isn't paused 
         if (Input.GetKeyUp(KeyCode.C))
         {
             if (GameControls)
             {
                 PauseGame();
             }
+            //do this
 
             else
             {
                 ControlsMenu();
             }
+            //if it is paused then do this
         }
     }
 

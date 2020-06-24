@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 5468951695204280664}
   - component: {fileID: 5468951695203477880}
   - component: {fileID: 5468951695202380728}
+  - component: {fileID: 114626679729214906}
+  - component: {fileID: 8499381278499179203}
   m_Layer: 0
   m_Name: asley_rock
-  m_TagString: Untagged
+  m_TagString: Hazards
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5468951695204316536}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 120.76, y: 0.36, z: 0.055314}
   m_LocalScale: {x: 1.4948, y: 1.4948, z: 1.4948}
   m_Children: []
@@ -77,3 +79,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &114626679729214906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468951695204316536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaadb4a0a3aa37145914cc4f756bb6cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &8499381278499179203
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468951695204316536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.9413797
+  m_Height: 1.8827595
+  m_Direction: 1
+  m_Center: {x: -0.43026435, y: 0.11586955, z: -0.135159}

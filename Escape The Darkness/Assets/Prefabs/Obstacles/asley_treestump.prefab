@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1669418907701961962}
   - component: {fileID: 1669418907702928938}
   - component: {fileID: 4994967304988120916}
+  - component: {fileID: 114076871273312032}
   m_Layer: 0
   m_Name: asley_treestump
   m_TagString: Hazards
@@ -91,3 +92,15 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.45486328
   m_Center: {x: 0.009060361, y: -0.024722055, z: 0.04787133}
+--- !u!114 &114076871273312032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4994967304988120872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaadb4a0a3aa37145914cc4f756bb6cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

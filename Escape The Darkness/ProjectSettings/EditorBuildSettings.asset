@@ -6,24 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 4b6c7e67dd8ca904389346f558f6fc71
-  - enabled: 1
-    path: Assets/Scenes/Death.unity
-    guid: dcd083d1a330b084981816e1726367ff
-  - enabled: 1
-    path: Assets/Scenes/Instructions.unity
-    guid: 78b61b52a6d40614f90d8355d1188c2b
-  - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/Done/Main Menu.unity
     guid: f1b4952052b7f234fa00be255c92b2f9
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/Done/Instructions.unity
+    guid: 78b61b52a6d40614f90d8355d1188c2b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Done/Death.unity
+    guid: dcd083d1a330b084981816e1726367ff
+  - enabled: 1
+    path: Assets/Scenes/Done/Credits.unity
     guid: 07642d009737df44c891cc9181c1595b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/LeaderBoard.unity
-    guid: 77f65ed78c8e6f34386fecf75f7187eb
+    path: Assets/Scenes/Done/Instructions2.unity
+    guid: 5b66249b161bfba42be355061ad940ef
   - enabled: 1
-    path: Assets/Scenes/PlayerInput.unity
-    guid: 6187fbbb6e457584a99034dfde443987
+    path: Assets/Scenes/Game2.unity
+    guid: c4e58dbe860f47742bda2ed94a3d0c20
   m_configObjects: {}

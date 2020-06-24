@@ -10,7 +10,8 @@ public class Ground : MonoBehaviour
     private float spawnX = 50.0f;
     private float groundLength = -50.0f;
     private float safeZone = 60.0f;
-    private int amnGroundOnScreen = 10;
+    private int amnGroundOnScreen = 5;
+    private int lastPrefabIndex = 0;
 
     private List<GameObject> ActiveGround;
 
@@ -21,7 +22,10 @@ public class Ground : MonoBehaviour
 
         for(int i = 0; i < amnGroundOnScreen; i++)
         {
-            SpawnGround();
+            if (i < 2)
+                SpawnGround (0);
+            else
+                SpawnGround();
         }
 
 
@@ -40,7 +44,10 @@ public class Ground : MonoBehaviour
     private void SpawnGround (int prefabIndex = -1)
     {
         GameObject go;
-        go = Instantiate(groundPrefabs[0]) as GameObject;
+        if (prefabIndex == -1)
+            go = Instantiate(groundPrefabs[RandomPrefabIndex()]) as GameObject;
+        else
+            go = Instantiate(groundPrefabs[prefabIndex]) as GameObject;
         go.transform.SetParent(transform);
         go.transform.position = Vector3.right * spawnX;
         spawnX += groundLength;
@@ -50,5 +57,21 @@ public class Ground : MonoBehaviour
     {
         Destroy(ActiveGround[0]);
         ActiveGround.RemoveAt(0);
+    }
+
+    private int RandomPrefabIndex()
+    {
+        if (groundPrefabs.Length <= 1)
+            return 0;
+
+        int randomIndex = lastPrefabIndex;
+        while (randomIndex == lastPrefabIndex)
+        {
+            randomIndex = Random.Range(0, groundPrefabs.Length);
+        }
+
+        lastPrefabIndex = randomIndex;
+        return randomIndex;
+
     }
 }
