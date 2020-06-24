@@ -62,10 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Commented\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Commented\Health.cs" />
+    <Compile Include="Assets\Scripts\Commented\Menus.cs" />
+    <Compile Include="Assets\Scripts\Commented\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Commented\Timer.cs" />
     <Compile Include="Assets\Scripts\Done(Comment)\Ground.cs" />
-    <Compile Include="Assets\Scripts\Done(Comment)\Menus.cs" />
-    <Compile Include="Assets\Scripts\Done(Comment)\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Done(Comment)\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Done(Comment)\RandomObstacles.cs" />
     <Compile Include="Assets\Scripts\Done(Comment)\Scoring.cs" />

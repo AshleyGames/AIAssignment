@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    //
+    //This says to start with that they are falsed as when the game is first played, its not paused
     public static bool GameIsPaused = false;
     public static bool GameControls = false;
 
@@ -58,7 +58,8 @@ public class PauseMenu : MonoBehaviour
             //if it is paused then do this
         }
     }
-
+    //This tell unity what canvas is active or not, when the button is pressed
+    //Its also allows everything to unfreeze
     public void Resume()
     {
         PauseMenuCanvas.SetActive(false);
@@ -66,7 +67,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
-
+    //This tell unity what canvas is active or not, when the button is pressed
+    //Its also allows everything to freeze
     public void PauseGame()
     {
         PauseMenuCanvas.SetActive(true);
@@ -77,12 +79,16 @@ public class PauseMenu : MonoBehaviour
         GameControls = false;
     }
 
+    //This tell unity to change scenes when the button is pressed
+    //Its also allows the menu to unfreeze
     public void MainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
     }
 
+    //This tell unity what canvas is active or not, when the button is pressed
+    //Its also allows everything to freeze
     public void ControlsMenu()
     {
         PauseMenuCanvas.SetActive(false);
