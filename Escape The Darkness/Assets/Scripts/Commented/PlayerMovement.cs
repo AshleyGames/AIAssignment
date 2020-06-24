@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //This changes the speed of the player
     public float speed = 5.0f;
 
     private Rigidbody rigid;
@@ -13,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
         rigid = GetComponent<Rigidbody>();
     }
 
-    
+    //This function bellow checks if the player has pressed a specfic key every frame
+    //Then does something e.g. move left or right or jump
     void Update()
     {
         if (Input.GetKeyDown (KeyCode.A))

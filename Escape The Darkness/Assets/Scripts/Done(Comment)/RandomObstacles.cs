@@ -6,7 +6,6 @@ public class RandomObstacles : MonoBehaviour
 {
     public Transform[] spawnPoints;
     public float spawnTime = 10F;
-    //public GameObject Rock;
     public GameObject[] Obstacles;
     public Transform bestPosition = null;
     public float bestScore = float.NegativeInfinity;
