@@ -61,14 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Commented\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Commented\Ground.cs" />
     <Compile Include="Assets\Scripts\Commented\Health.cs" />
     <Compile Include="Assets\Scripts\Commented\Menus.cs" />
     <Compile Include="Assets\Scripts\Commented\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Commented\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Commented\RandomObstacles.cs" />
+    <Compile Include="Assets\Scripts\Commented\Scoring.cs" />
     <Compile Include="Assets\Scripts\Commented\Timer.cs" />
-    <Compile Include="Assets\Scripts\Done(Comment)\Ground.cs" />
-    <Compile Include="Assets\Scripts\Done(Comment)\RandomObstacles.cs" />
-    <Compile Include="Assets\Scripts\Done(Comment)\Scoring.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/University/2nd Year/NewAI/AIAssignment/Escape The Darkness/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

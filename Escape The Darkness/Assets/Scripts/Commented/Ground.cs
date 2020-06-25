@@ -59,6 +59,7 @@ public class Ground : MonoBehaviour
         ActiveGround.RemoveAt(0);
     }
 
+    //This takes only randomly from the list of ground prefabs, then 
     private int RandomPrefabIndex()
     {
         if (groundPrefabs.Length <= 1)
